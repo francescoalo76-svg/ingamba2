@@ -1,9 +1,9 @@
 const CACHE_NAME = 'ingamba-v1';
 const URLS_TO_CACHE = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  '/icon.svg'
+  './',
+  './index.html',
+  './manifest.json',
+  './icon.svg'
 ];
 
 self.addEventListener('install', event => {
@@ -61,7 +61,7 @@ self.addEventListener('fetch', event => {
         ).catch(() => {
           // Fallback for navigation requests when offline.
           if (event.request.mode === 'navigate') {
-            return caches.match('/index.html');
+            return caches.match('./index.html');
           }
         });
       })
