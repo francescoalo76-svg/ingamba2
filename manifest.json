@@ -1,0 +1,17 @@
+{
+  "name": "Ingamba - registro presenze per la tua associazione sportiva",
+  "short_name": "Ingamba",
+  "description": "Un'applicazione web minimalista per allenatori sportivi per gestire atleti, squadre e monitorare le presenze agli allenamenti ed eventi. Progettata per un uso rapido e semplice su smartphone.",
+  "start_url": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f9fafb",
+  "theme_color": "#3b82f6",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
